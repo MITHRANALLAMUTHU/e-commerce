@@ -1,0 +1,58 @@
+/* src/components/Header.css */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    z-index: 999; /* Ensure the header is above other content */
+    background-color: #85657e;
+    padding: 20px 0; /* Adjust the padding here */
+}
+
+.header-box {
+    border: 2px solid rgb(16, 9, 9);
+    color: white;
+    padding: 30px; /* Adjust the padding for the header box */
+    border-radius: 8px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Limit the width of the header content */
+}
+
+.website-name {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-button {
+    background-color: rgb(50, 184, 214);
+    color: white;
+    border: none; /* Remove border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
